@@ -10,23 +10,6 @@ export default function VerifyCade() {
 
                 <div className="bg-[#94A2F2] flex justify-center items-center flex-col h-screen px-10">
                     <img src={imgCustom} className="w-full h-auto" />
-                    {/* <p style={{
-                        position: 'absolute',
-                        color: '#FFFFFF',
-                        width: '434px',
-                        height: '126px',
-                        left: '246px',
-                        top: '761px',
-
-                        fontFamily: 'Lexend',
-                        fontStyle: 'normal',
-                        fontWeight: '500',
-                        fontSize: '50px',
-                        lineHeight: '62px',
-                        textAlign: 'center',
-                        textTransform: 'capitalize'}}>
-                        welcome to my website
-                    </p> */}
                     <h1 className='text-2xl text-white text-center'>Welcome Back To <br/>Candor</h1>
                 </div>
 
@@ -35,7 +18,7 @@ export default function VerifyCade() {
                         <div className="flex items-center">
                             <img src={line} className='flex'/>
                             <div className='flex flex-col ml-5'>
-                            <p style={{color: '#94A2F2', fontSize: '20px', fontWeight: 'bold'}} className='bg-[#94A2F2] font-bold font-'>Verify Your Code</p>
+                            <p style={{color: '#94A2F2', fontSize: '20px', fontWeight: 'bold'}} className='font-bold'>Verify Your Code</p>
                             <p style={{color: '#A0A0A0'}}>Please enter your Code here</p></div>
                         </div>
 
